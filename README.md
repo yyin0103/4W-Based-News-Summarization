@@ -48,4 +48,7 @@ Command line args:
 bart/README.md
 ```
 
-
+# Future Attempts #
+* Add more keyword extraction methods
+* Output test result to compare with GSum
+* Propose a keyword post-processing method for summarization
