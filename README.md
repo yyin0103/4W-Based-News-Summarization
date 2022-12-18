@@ -36,6 +36,7 @@ Command line args:
 * data_path: the path to your file
 * method: the method to extract keywords. Currently this repository only support manually_tuned weighted rerank keyword mechanism. In the future, it will support neural-network-based or more other keywords generator.
 * max_num: the maximum number of keywords (no more than 30)
+* output_path: output path of the keyword list
 
 5. Generate Summary: To train or test a summarization model with Bart using the above keywords extracted, please refer to the steps in 
 ```
