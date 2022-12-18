@@ -17,15 +17,20 @@ Note: This project is based on the Bart model in https://github.com/neulab/guide
 ```
 pip install -r requirements.txt
 ```
-2. Set up fairseq
+2. Work with Bart
+```
+cd bart
+```
+
+3. Set up fairseq
 ```
 cd fairseq
 pip install --editable ./
 ```
 
-3. Prepare a txt file with a list of the documents to summarize.
+4. Prepare a txt file with a list of the documents to summarize.
 
-4. Extract keywords
+5. Extract keywords
 `generate_keywords.py` is expected to include several keyword ranking and extraction methods based on sPaCy's NER and pytextRank.
 
 ```
@@ -38,9 +43,9 @@ Command line args:
 * max_num: the maximum number of keywords (no more than 30)
 * output_path: output path of the keyword list
 
-5. Generate Summary: To train or test a summarization model with Bart using the above keywords extracted, please refer to the steps in 
+6. Generate Summary: To train or test a summarization model with Bart using the above keywords extracted, please refer to the steps in 
 ```
-GSum-README.md
+bart/README.md
 ```
 
 
